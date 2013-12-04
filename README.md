@@ -30,6 +30,9 @@ grunt server
 ## Add a platform
 
 ```sh
+# To make sure the application has been generated (and the config.xml is in www)
+grunt
+# To add the platform
 cordova platform add [platform]
 ```
 
