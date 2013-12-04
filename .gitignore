@@ -1,0 +1,7 @@
+*.keystore
+*.sw*
+platforms/^.*
+
+.tmp
+node_modules
+www

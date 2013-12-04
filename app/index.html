@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ionic Seed</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- build:css styles/style.css -->
+    <!-- ionic css -->
+    <link href="styles/ionic.css" rel="stylesheet">
+
+    <!-- your app's css -->
+    <link href="styles/app.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/scripts.js -->
+    <!-- ionic/angularjs scripts -->
+    <script src="lib/ionic.js"></script>
+    <script src="components/angular/angular.js"></script>
+    <script src="components/angular-animate/angular-animate.js"></script>
+    <script src="components/angular-route/angular-route.js"></script>
+    <script src="components/angular-touch/angular-touch.js"></script>
+    <script src="components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/ionic-angular.js"></script>
+
+    <!-- cordova script -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's script -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services/pets.js"></script>
+    <script src="scripts/controllers/appCtrl.js"></script>
+    <script src="scripts/controllers/petCtrl.js"></script>
+    <script src="scripts/controllers/petsTabCtrl.js"></script>
+    <!-- endbuild -->
+</head>
+
+<!-- 'starter' is the name of this angular module (js/app.js)-->
+<body ng-app="ionicbootstrapApp">
+
+<!-- Our navigation router with some animations set -->
+<pane nav-router animation="slide-left-right-ios7">
+    <!-- The nav bar that will be updated as we navigate -->
+    <nav-bar class="nav-title-slide-ios7" type="bar-positive" back-button-type="button-icon"
+             back-button-icon="icon ion-arrow-left-c"></nav-bar>
+
+    <!-- where the content of each page will be rendered -->
+    <ng-view></ng-view>
+</pane>
+</body>
+</html>
