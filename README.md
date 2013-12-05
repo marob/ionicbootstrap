@@ -53,3 +53,7 @@ grunt
 # To emulate the generated application
 cordova run [platform]
 ```
+
+## Benefit from angular scaffolding
+
+Generate new routes, controllers, views, services... automatically with the angular generator : https://github.com/yeoman/generator-angular#route
